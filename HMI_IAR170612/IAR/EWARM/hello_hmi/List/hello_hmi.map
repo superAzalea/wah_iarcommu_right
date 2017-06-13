@@ -1,0 +1,1103 @@
+###############################################################################
+#
+# IAR ELF Linker V7.70.1.11437/W32 for ARM                13/Jun/2017  13:54:45
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Exe\hello_hmi.out
+#    Map file     =  
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\List\hello_hmi.map
+#    Command line =  
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\24CXX.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\buzz.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\crc.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\DataExchange.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\DataHandle.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\delay.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\faultProcess.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\IIC.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\Interrupt_Init.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\key.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\LCD_display.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\led.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\main.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\Menu.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\misc.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\rtc.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\startup_stm32f10x_md.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_adc.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_bkp.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_can.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_cec.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_crc.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_dac.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_dbgmcu.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_dma.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_exti.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_flash.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_fsmc.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_gpio.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_i2c.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_it.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_iwdg.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_pwr.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_rcc.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_rtc.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_sdio.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_spi.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_tim.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_usart.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\stm32f10x_wwdg.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\struct_comm.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\SysPr.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\system_stm32f10x.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\SystemInit.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\SystemWord.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\timer.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\usart.o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj\ziku.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Exe\hello_hmi.out
+#        --map
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\List\hello_hmi.map
+#        --config
+#        \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM/stm32f103xb_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0801ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20004fff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address     Size  Object
+  -------            ----        -------     ----  ------
+"A0":                                        0xec
+  .intvec            ro code  0x08000000     0xec  startup_stm32f10x_md.o [1]
+                            - 0x080000ec     0xec
+
+"P1":                                     0x15058
+  .text              ro code  0x080000ec   0xe440  Menu.o [1]
+  .text              ro code  0x0800e52c    0x4bc  LCD_display.o [1]
+  .text              ro code  0x0800e9e8     0x6c  strncpy_unaligned.o [5]
+  .text              ro code  0x0800ea54     0xb8  24CXX.o [1]
+  .text              ro code  0x0800eb0c     0xa6  delay.o [1]
+  .text              ro code  0x0800ebb4    0x2c4  SysPr.o [1]
+  .text              ro code  0x0800ee78     0x66  ABImemset.o [5]
+  .text              ro code  0x0800eee0    0x284  IIC.o [1]
+  .text              ro code  0x0800f164     0x94  misc.o [1]
+  .text              ro code  0x0800f1f8    0x118  stm32f10x_rcc.o [1]
+  .text              ro code  0x0800f310     0xc0  stm32f10x_gpio.o [1]
+  .rodata            const    0x0800f3d0   0x2e5c  ziku.o [1]
+  .text              ro code  0x0801222c    0x714  usart.o [1]
+  .text              ro code  0x08012940    0x1bc  stm32f10x_usart.o [1]
+  .text              ro code  0x08012afc     0x3c  crc.o [1]
+  .text              ro code  0x08012b38    0x370  main.o [1]
+  .text              ro code  0x08012ea8    0x158  system_stm32f10x.o [1]
+  .text              ro code  0x08013000    0x110  SystemInit.o [1]
+  .text              ro code  0x08013110    0x2d4  timer.o [1]
+  .text              ro code  0x080133e4    0x17c  DataHandle.o [1]
+  .text              ro code  0x08013560    0x170  struct_comm.o [1]
+  .text              ro code  0x080136d0    0x120  stm32f10x_tim.o [1]
+  .text              ro code  0x080137f0    0x218  key.o [1]
+  .text              ro code  0x08013a08     0x32  I32ToFlt.o [4]
+  .text              ro code  0x08013a3c     0xd8  FltMul.o [4]
+  .text              ro code  0x08013b14     0xfc  FltDiv.o [4]
+  .text              ro code  0x08013c10    0x20c  rtc.o [1]
+  .rodata            const    0x08013e1c    0x100  crc.o [1]
+  .rodata            const    0x08013f1c    0x100  crc.o [1]
+  .rodata            const    0x0801401c     0xc8  SysPr.o [1]
+  .rodata            const    0x080140e4     0xc8  SysPr.o [1]
+  .rodata            const    0x080141ac     0xc8  SysPr.o [1]
+  .rodata            const    0x08014274     0xc8  SysPr.o [1]
+  .rodata            const    0x0801433c     0xc8  SysPr.o [1]
+  .rodata            const    0x08014404     0x88  SysPr.o [1]
+  .text              ro code  0x0801448c     0x78  lz77_init_single.o [5]
+  .text              ro code  0x08014504     0x40  zero_init3.o [5]
+  .text              ro code  0x08014544     0x28  data_init.o [5]
+  .iar.init_table    const    0x0801456c     0x20  - Linker created -
+  .rodata            const    0x0801458c     0x20  Menu.o [1]
+  .rodata            const    0x080145ac     0x20  Menu.o [1]
+  .rodata            const    0x080145cc     0x20  Menu.o [1]
+  .rodata            const    0x080145ec     0x20  Menu.o [1]
+  .rodata            const    0x0801460c     0x1c  Menu.o [1]
+  .rodata            const    0x08014628     0x1c  Menu.o [1]
+  .rodata            const    0x08014644     0x1c  Menu.o [1]
+  .rodata            const    0x08014660     0x1c  Menu.o [1]
+  .rodata            const    0x0801467c     0x1c  Menu.o [1]
+  .text              ro code  0x08014698     0x1a  cmain.o [5]
+  .text              ro code  0x080146b2      0x4  low_level_init.o [3]
+  .text              ro code  0x080146b6      0x4  exit.o [3]
+  .text              ro code  0x080146bc      0xa  cexit.o [5]
+  .text              ro code  0x080146c8     0x14  exit.o [6]
+  .rodata            const    0x080146dc     0x18  Menu.o [1]
+  .rodata            const    0x080146f4     0x18  Menu.o [1]
+  .rodata            const    0x0801470c     0x18  Menu.o [1]
+  .rodata            const    0x08014724     0x18  Menu.o [1]
+  .rodata            const    0x0801473c     0x18  Menu.o [1]
+  .rodata            const    0x08014754     0x18  Menu.o [1]
+  .rodata            const    0x0801476c     0x18  Menu.o [1]
+  .rodata            const    0x08014784     0x18  Menu.o [1]
+  .rodata            const    0x0801479c     0x18  Menu.o [1]
+  .rodata            const    0x080147b4     0x18  Menu.o [1]
+  .rodata            const    0x080147cc     0x18  Menu.o [1]
+  .rodata            const    0x080147e4     0x18  Menu.o [1]
+  .rodata            const    0x080147fc     0x18  Menu.o [1]
+  .rodata            const    0x08014814     0x18  Menu.o [1]
+  .rodata            const    0x0801482c     0x18  Menu.o [1]
+  .rodata            const    0x08014844     0x18  Menu.o [1]
+  .rodata            const    0x0801485c     0x14  Menu.o [1]
+  .rodata            const    0x08014870     0x14  Menu.o [1]
+  .rodata            const    0x08014884     0x14  Menu.o [1]
+  .text              ro code  0x08014898     0x12  stm32f10x_it.o [1]
+  .rodata            const    0x080148ac     0x10  Menu.o [1]
+  .rodata            const    0x080148bc     0x10  Menu.o [1]
+  .rodata            const    0x080148cc     0x10  Menu.o [1]
+  .rodata            const    0x080148dc     0x10  Menu.o [1]
+  .rodata            const    0x080148ec     0x10  Menu.o [1]
+  .rodata            const    0x080148fc     0x10  Menu.o [1]
+  .rodata            const    0x0801490c     0x10  Menu.o [1]
+  .text              ro code  0x0801491c     0x10  startup_stm32f10x_md.o [1]
+  .rodata            const    0x0801492c      0xc  Menu.o [1]
+  .rodata            const    0x08014938      0xc  Menu.o [1]
+  .rodata            const    0x08014944      0xc  Menu.o [1]
+  .rodata            const    0x08014950      0xc  Menu.o [1]
+  .rodata            const    0x0801495c      0xc  Menu.o [1]
+  .rodata            const    0x08014968      0xc  Menu.o [1]
+  .rodata            const    0x08014974      0xc  Menu.o [1]
+  .rodata            const    0x08014980      0xc  Menu.o [1]
+  .rodata            const    0x0801498c      0xc  Menu.o [1]
+  .rodata            const    0x08014998      0xc  Menu.o [1]
+  .rodata            const    0x080149a4      0xc  Menu.o [1]
+  .rodata            const    0x080149b0      0xc  Menu.o [1]
+  .rodata            const    0x080149bc      0xc  Menu.o [1]
+  .rodata            const    0x080149c8      0xc  Menu.o [1]
+  .rodata            const    0x080149d4      0xc  Menu.o [1]
+  .rodata            const    0x080149e0      0xc  rtc.o [1]
+  .rodata            const    0x080149ec      0xc  rtc.o [1]
+  .text              ro code  0x080149f8      0xc  cstartup_M.o [5]
+  .rodata            const    0x08014a04      0x8  Menu.o [1]
+  .rodata            const    0x08014a0c      0x8  Menu.o [1]
+  .rodata            const    0x08014a14      0x8  Menu.o [1]
+  .rodata            const    0x08014a1c      0x8  Menu.o [1]
+  .rodata            const    0x08014a24      0x8  Menu.o [1]
+  .rodata            const    0x08014a2c      0x8  Menu.o [1]
+  .rodata            const    0x08014a34      0x8  Menu.o [1]
+  .rodata            const    0x08014a3c      0x8  Menu.o [1]
+  .rodata            const    0x08014a44      0x8  Menu.o [1]
+  .rodata            const    0x08014a4c      0x8  Menu.o [1]
+  .rodata            const    0x08014a54      0x8  Menu.o [1]
+  .rodata            const    0x08014a5c      0x8  Menu.o [1]
+  .rodata            const    0x08014a64      0x8  Menu.o [1]
+  .rodata            const    0x08014a6c      0x8  Menu.o [1]
+  .rodata            const    0x08014a74      0x8  Menu.o [1]
+  .rodata            const    0x08014a7c      0x8  Menu.o [1]
+  .rodata            const    0x08014a84      0x8  Menu.o [1]
+  .rodata            const    0x08014a8c      0x8  Menu.o [1]
+  .rodata            const    0x08014a94      0x8  Menu.o [1]
+  .rodata            const    0x08014a9c      0x8  Menu.o [1]
+  .rodata            const    0x08014aa4      0x8  Menu.o [1]
+  .rodata            const    0x08014aac      0x8  Menu.o [1]
+  .rodata            const    0x08014ab4      0x8  Menu.o [1]
+  .rodata            const    0x08014abc      0x8  Menu.o [1]
+  .rodata            const    0x08014ac4      0x8  Menu.o [1]
+  .rodata            const    0x08014acc      0x8  Menu.o [1]
+  .rodata            const    0x08014ad4      0x8  Menu.o [1]
+  .rodata            const    0x08014adc      0x8  Menu.o [1]
+  .rodata            const    0x08014ae4      0x8  Menu.o [1]
+  .rodata            const    0x08014aec      0x8  Menu.o [1]
+  .rodata            const    0x08014af4      0x8  Menu.o [1]
+  .rodata            const    0x08014afc      0x8  Menu.o [1]
+  .rodata            const    0x08014b04      0x8  Menu.o [1]
+  .rodata            const    0x08014b0c      0x8  Menu.o [1]
+  .text              ro code  0x08014b14      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b18      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b1c      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b20      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b24      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b28      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b2c      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b30      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b34      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b38      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b3c      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b40      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b44      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b48      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b4c      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b50      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b54      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b58      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b5c      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b60      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b64      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b68      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b6c      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b70      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b74      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b78      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b7c      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b80      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b84      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b88      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b8c      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b90      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b94      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b98      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014b9c      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014ba0      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014ba4      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014ba8      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bac      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bb0      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bb4      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bb8      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bbc      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bc0      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bc4      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bc8      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bcc      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bd0      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bd4      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bd8      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014bdc      0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08014be0      0x4  startup_stm32f10x_md.o [1]
+  .rodata            const    0x08014be4      0x0  zero_init3.o [5]
+  .rodata            const    0x08014be4      0x0  lz77_init_single.o [5]
+  Initializer bytes  const    0x08014be4    0x560  <for P2-1>
+                            - 0x08015144  0x15058
+
+"P2", part 1 of 3:                         0x1089
+  P2-1                        0x20000000   0x1089  <Init block>
+    .data            inited   0x20000000     0x14  key.o [1]
+    .data            inited   0x20000014     0x14  key.o [1]
+    .data            inited   0x20000028     0x7c  Menu.o [1]
+    .data            inited   0x200000a4     0x7c  Menu.o [1]
+    .data            inited   0x20000120     0x7c  Menu.o [1]
+    .data            inited   0x2000019c     0x7c  Menu.o [1]
+    .data            inited   0x20000218     0x7c  Menu.o [1]
+    .data            inited   0x20000294     0x7c  Menu.o [1]
+    .data            inited   0x20000310    0x1e4  Menu.o [1]
+    .data            inited   0x200004f4     0xb8  Menu.o [1]
+    .data            inited   0x200005ac     0xb8  Menu.o [1]
+    .data            inited   0x20000664     0xb8  Menu.o [1]
+    .data            inited   0x2000071c     0xd4  Menu.o [1]
+    .data            inited   0x200007f0     0x40  Menu.o [1]
+    .data            inited   0x20000830     0xd4  Menu.o [1]
+    .data            inited   0x20000904     0xb8  Menu.o [1]
+    .data            inited   0x200009bc     0x5c  Menu.o [1]
+    .data            inited   0x20000a18     0xd4  Menu.o [1]
+    .data            inited   0x20000aec     0x7c  Menu.o [1]
+    .data            inited   0x20000b68     0x98  Menu.o [1]
+    .data            inited   0x20000c00     0x7c  Menu.o [1]
+    .data            inited   0x20000c7c     0x98  Menu.o [1]
+    .data            inited   0x20000d14     0xd4  Menu.o [1]
+    .data            inited   0x20000de8     0x5c  Menu.o [1]
+    .data            inited   0x20000e44     0x7c  Menu.o [1]
+    .data            inited   0x20000ec0     0x7c  Menu.o [1]
+    .data            inited   0x20000f3c     0x7c  Menu.o [1]
+    .data            inited   0x20000fb8     0x40  Menu.o [1]
+    .data            inited   0x20000ff8     0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x20001008      0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x2000100c     0x7c  SysPr.o [1]
+    .data            inited   0x20001088      0x1  usart.o [1]
+                            - 0x20001089   0x1089
+
+"P2", part 2 of 3:                          0x400
+  CSTACK                      0x20001090    0x400  <Block>
+    CSTACK           uninit   0x20001090    0x400  <Block tail>
+                            - 0x20001490    0x400
+
+"P2", part 3 of 3:                          0xa98
+  .bss               zero     0x20001490    0x1f4  usart.o [1]
+  .bss               zero     0x20001684    0x1f4  usart.o [1]
+  .bss               zero     0x20001878     0xfc  usart.o [1]
+  .bss               zero     0x20001974     0xfc  usart.o [1]
+  .bss               zero     0x20001a70     0xc8  Menu.o [1]
+  .bss               zero     0x20001b38     0xc8  Menu.o [1]
+  .bss               zero     0x20001c00     0x88  Menu.o [1]
+  .bss               zero     0x20001c88     0x88  SysPr.o [1]
+  .bss               zero     0x20001d10     0x7c  LCD_display.o [1]
+  .bss               zero     0x20001d8c     0x44  key.o [1]
+  .bss               zero     0x20001dd0      0xc  Menu.o [1]
+  .bss               zero     0x20001ddc      0xc  Menu.o [1]
+  .bss               zero     0x20001de8      0xc  rtc.o [1]
+  .bss               zero     0x20001df4      0x8  LCD_display.o [1]
+  .bss               zero     0x20001dfc      0x8  Menu.o [1]
+  .bss               zero     0x20001e04      0x8  Menu.o [1]
+  .bss               zero     0x20001e0c      0x8  Menu.o [1]
+  .bss               zero     0x20001e14      0x4  DataHandle.o [1]
+  .bss               zero     0x20001e18      0x4  LCD_display.o [1]
+  .bss               zero     0x20001e1c      0x4  main.o [1]
+  .bss               zero     0x20001e20      0x4  main.o [1]
+  .bss               zero     0x20001e24      0x4  main.o [1]
+  .bss               zero     0x20001e28      0x4  main.o [1]
+  .bss               zero     0x20001e2c      0x4  main.o [1]
+  .bss               zero     0x20001e30      0x4  main.o [1]
+  .bss               zero     0x20001e34      0x4  Menu.o [1]
+  .bss               zero     0x20001e38      0x4  Menu.o [1]
+  .bss               zero     0x20001e3c      0x4  Menu.o [1]
+  .bss               zero     0x20001e40      0x4  Menu.o [1]
+  .bss               zero     0x20001e44      0x4  Menu.o [1]
+  .bss               zero     0x20001e48      0x4  Menu.o [1]
+  .bss               zero     0x20001e4c      0x4  Menu.o [1]
+  .bss               zero     0x20001e50      0x4  Menu.o [1]
+  .bss               zero     0x20001e54      0x4  Menu.o [1]
+  .bss               zero     0x20001e58      0x4  Menu.o [1]
+  .bss               zero     0x20001e5c      0x4  Menu.o [1]
+  .bss               zero     0x20001e60      0x4  struct_comm.o [1]
+  .bss               zero     0x20001e64      0x4  timer.o [1]
+  .bss               zero     0x20001e68      0x4  timer.o [1]
+  .bss               zero     0x20001e6c      0x4  timer.o [1]
+  .bss               zero     0x20001e70      0x4  timer.o [1]
+  .bss               zero     0x20001e74      0x4  timer.o [1]
+  .bss               zero     0x20001e78      0x4  timer.o [1]
+  .bss               zero     0x20001e7c      0x4  timer.o [1]
+  .bss               zero     0x20001e80      0x4  timer.o [1]
+  .bss               zero     0x20001e84      0x2  DataHandle.o [1]
+  .bss               zero     0x20001e86      0x2  DataHandle.o [1]
+  .bss               zero     0x20001e88      0x2  DataHandle.o [1]
+  .bss               zero     0x20001e8a      0x2  DataHandle.o [1]
+  .bss               zero     0x20001e8c      0x2  DataHandle.o [1]
+  .bss               zero     0x20001e8e      0x2  DataHandle.o [1]
+  .bss               zero     0x20001e90      0x2  delay.o [1]
+  .bss               zero     0x20001e92      0x2  Menu.o [1]
+  .bss               zero     0x20001e94      0x2  rtc.o [1]
+  .bss               zero     0x20001e96      0x2  struct_comm.o [1]
+  .bss               zero     0x20001e98      0x2  struct_comm.o [1]
+  .bss               zero     0x20001e9a      0x2  timer.o [1]
+  .bss               zero     0x20001e9c      0x2  timer.o [1]
+  .bss               zero     0x20001e9e      0x2  timer.o [1]
+  .bss               zero     0x20001ea0      0x2  timer.o [1]
+  .bss               zero     0x20001ea2      0x2  timer.o [1]
+  .bss               zero     0x20001ea4      0x1  DataHandle.o [1]
+  .bss               zero     0x20001ea5      0x1  DataHandle.o [1]
+  .bss               zero     0x20001ea6      0x1  DataHandle.o [1]
+  .bss               zero     0x20001ea7      0x1  DataHandle.o [1]
+  .bss               zero     0x20001ea8      0x1  DataHandle.o [1]
+  .bss               zero     0x20001ea9      0x1  DataHandle.o [1]
+  .bss               zero     0x20001eaa      0x1  DataHandle.o [1]
+  .bss               zero     0x20001eab      0x1  DataHandle.o [1]
+  .bss               zero     0x20001eac      0x1  DataHandle.o [1]
+  .bss               zero     0x20001ead      0x1  DataHandle.o [1]
+  .bss               zero     0x20001eae      0x1  delay.o [1]
+  .bss               zero     0x20001eaf      0x1  key.o [1]
+  .bss               zero     0x20001eb0      0x1  key.o [1]
+  .bss               zero     0x20001eb1      0x1  key.o [1]
+  .bss               zero     0x20001eb2      0x1  key.o [1]
+  .bss               zero     0x20001eb3      0x1  key.o [1]
+  .bss               zero     0x20001eb4      0x1  key.o [1]
+  .bss               zero     0x20001eb5      0x1  key.o [1]
+  .bss               zero     0x20001eb6      0x1  key.o [1]
+  .bss               zero     0x20001eb7      0x1  main.o [1]
+  .bss               zero     0x20001eb8      0x1  main.o [1]
+  .bss               zero     0x20001eb9      0x1  main.o [1]
+  .bss               zero     0x20001eba      0x1  main.o [1]
+  .bss               zero     0x20001ebb      0x1  main.o [1]
+  .bss               zero     0x20001ebc      0x1  main.o [1]
+  .bss               zero     0x20001ebd      0x1  main.o [1]
+  .bss               zero     0x20001ebe      0x1  main.o [1]
+  .bss               zero     0x20001ebf      0x1  main.o [1]
+  .bss               zero     0x20001ec0      0x1  main.o [1]
+  .bss               zero     0x20001ec1      0x1  main.o [1]
+  .bss               zero     0x20001ec2      0x1  main.o [1]
+  .bss               zero     0x20001ec3      0x1  main.o [1]
+  .bss               zero     0x20001ec4      0x1  main.o [1]
+  .bss               zero     0x20001ec5      0x1  main.o [1]
+  .bss               zero     0x20001ec6      0x1  main.o [1]
+  .bss               zero     0x20001ec7      0x1  main.o [1]
+  .bss               zero     0x20001ec8      0x1  main.o [1]
+  .bss               zero     0x20001ec9      0x1  Menu.o [1]
+  .bss               zero     0x20001eca      0x1  Menu.o [1]
+  .bss               zero     0x20001ecb      0x1  Menu.o [1]
+  .bss               zero     0x20001ecc      0x1  Menu.o [1]
+  .bss               zero     0x20001ecd      0x1  Menu.o [1]
+  .bss               zero     0x20001ece      0x1  Menu.o [1]
+  .bss               zero     0x20001ecf      0x1  Menu.o [1]
+  .bss               zero     0x20001ed0      0x1  Menu.o [1]
+  .bss               zero     0x20001ed1      0x1  Menu.o [1]
+  .bss               zero     0x20001ed2      0x1  Menu.o [1]
+  .bss               zero     0x20001ed3      0x1  Menu.o [1]
+  .bss               zero     0x20001ed4      0x1  Menu.o [1]
+  .bss               zero     0x20001ed5      0x1  Menu.o [1]
+  .bss               zero     0x20001ed6      0x1  Menu.o [1]
+  .bss               zero     0x20001ed7      0x1  Menu.o [1]
+  .bss               zero     0x20001ed8      0x1  Menu.o [1]
+  .bss               zero     0x20001ed9      0x1  Menu.o [1]
+  .bss               zero     0x20001eda      0x1  Menu.o [1]
+  .bss               zero     0x20001edb      0x1  Menu.o [1]
+  .bss               zero     0x20001edc      0x1  Menu.o [1]
+  .bss               zero     0x20001edd      0x1  Menu.o [1]
+  .bss               zero     0x20001ede      0x1  Menu.o [1]
+  .bss               zero     0x20001edf      0x1  Menu.o [1]
+  .bss               zero     0x20001ee0      0x1  Menu.o [1]
+  .bss               zero     0x20001ee1      0x1  Menu.o [1]
+  .bss               zero     0x20001ee2      0x1  Menu.o [1]
+  .bss               zero     0x20001ee3      0x1  Menu.o [1]
+  .bss               zero     0x20001ee4      0x1  Menu.o [1]
+  .bss               zero     0x20001ee5      0x1  Menu.o [1]
+  .bss               zero     0x20001ee6      0x1  Menu.o [1]
+  .bss               zero     0x20001ee7      0x1  Menu.o [1]
+  .bss               zero     0x20001ee8      0x1  Menu.o [1]
+  .bss               zero     0x20001ee9      0x1  Menu.o [1]
+  .bss               zero     0x20001eea      0x1  Menu.o [1]
+  .bss               zero     0x20001eeb      0x1  Menu.o [1]
+  .bss               zero     0x20001eec      0x1  Menu.o [1]
+  .bss               zero     0x20001eed      0x1  Menu.o [1]
+  .bss               zero     0x20001eee      0x1  Menu.o [1]
+  .bss               zero     0x20001eef      0x1  Menu.o [1]
+  .bss               zero     0x20001ef0      0x1  Menu.o [1]
+  .bss               zero     0x20001ef1      0x1  Menu.o [1]
+  .bss               zero     0x20001ef2      0x1  Menu.o [1]
+  .bss               zero     0x20001ef3      0x1  Menu.o [1]
+  .bss               zero     0x20001ef4      0x1  Menu.o [1]
+  .bss               zero     0x20001ef5      0x1  Menu.o [1]
+  .bss               zero     0x20001ef6      0x1  Menu.o [1]
+  .bss               zero     0x20001ef7      0x1  Menu.o [1]
+  .bss               zero     0x20001ef8      0x1  Menu.o [1]
+  .bss               zero     0x20001ef9      0x1  Menu.o [1]
+  .bss               zero     0x20001efa      0x1  Menu.o [1]
+  .bss               zero     0x20001efb      0x1  Menu.o [1]
+  .bss               zero     0x20001efc      0x1  Menu.o [1]
+  .bss               zero     0x20001efd      0x1  Menu.o [1]
+  .bss               zero     0x20001efe      0x1  Menu.o [1]
+  .bss               zero     0x20001eff      0x1  Menu.o [1]
+  .bss               zero     0x20001f00      0x1  Menu.o [1]
+  .bss               zero     0x20001f01      0x1  Menu.o [1]
+  .bss               zero     0x20001f02      0x1  Menu.o [1]
+  .bss               zero     0x20001f03      0x1  Menu.o [1]
+  .bss               zero     0x20001f04      0x1  Menu.o [1]
+  .bss               zero     0x20001f05      0x1  Menu.o [1]
+  .bss               zero     0x20001f06      0x1  Menu.o [1]
+  .bss               zero     0x20001f07      0x1  Menu.o [1]
+  .bss               zero     0x20001f08      0x1  Menu.o [1]
+  .bss               zero     0x20001f09      0x1  struct_comm.o [1]
+  .bss               zero     0x20001f0a      0x1  struct_comm.o [1]
+  .bss               zero     0x20001f0b      0x1  struct_comm.o [1]
+  .bss               zero     0x20001f0c      0x1  struct_comm.o [1]
+  .bss               zero     0x20001f0d      0x1  struct_comm.o [1]
+  .bss               zero     0x20001f0e      0x1  struct_comm.o [1]
+  .bss               zero     0x20001f0f      0x1  struct_comm.o [1]
+  .bss               zero     0x20001f10      0x1  struct_comm.o [1]
+  .bss               zero     0x20001f11      0x1  struct_comm.o [1]
+  .bss               zero     0x20001f12      0x1  struct_comm.o [1]
+  .bss               zero     0x20001f13      0x1  struct_comm.o [1]
+  .bss               zero     0x20001f14      0x1  struct_comm.o [1]
+  .bss               zero     0x20001f15      0x1  timer.o [1]
+  .bss               zero     0x20001f16      0x1  timer.o [1]
+  .bss               zero     0x20001f17      0x1  timer.o [1]
+  .bss               zero     0x20001f18      0x1  timer.o [1]
+  .bss               zero     0x20001f19      0x1  timer.o [1]
+  .bss               zero     0x20001f1a      0x1  timer.o [1]
+  .bss               zero     0x20001f1b      0x1  usart.o [1]
+  .bss               zero     0x20001f1c      0x1  usart.o [1]
+  .bss               zero     0x20001f1d      0x1  usart.o [1]
+  .bss               zero     0x20001f1e      0x1  usart.o [1]
+  .bss               zero     0x20001f1f      0x1  usart.o [1]
+  .bss               zero     0x20001f20      0x1  usart.o [1]
+  .bss               zero     0x20001f21      0x1  usart.o [1]
+  .bss               zero     0x20001f22      0x1  usart.o [1]
+  .bss               zero     0x20001f23      0x1  usart.o [1]
+  .bss               zero     0x20001f24      0x1  usart.o [1]
+                            - 0x20001f25    0xa95
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xa95:
+          0x20001490   0xa95
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x560 (32% of destination):
+          0x08014be4   0x560
+    1 destination range, total size 0x1089:
+          0x20000000  0x1089
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+\\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj: [1]
+    24CXX.o                     184
+    DataHandle.o                380                26
+    IIC.o                       644
+    LCD_display.o             1 212               136
+    Menu.o                   58 432    2 591    4 742
+    SysPr.o                     708    1 176      260
+    SystemInit.o                272
+    crc.o                        60      512
+    delay.o                     166                 3
+    key.o                       536       13      116
+    main.o                      880                42
+    misc.o                      148
+    rtc.o                       524       24       14
+    startup_stm32f10x_md.o      460
+    stm32f10x_gpio.o            192
+    stm32f10x_it.o               18
+    stm32f10x_rcc.o             280        7       20
+    stm32f10x_tim.o             288
+    stm32f10x_usart.o           444
+    struct_comm.o               368                20
+    system_stm32f10x.o          344
+    timer.o                     724                48
+    usart.o                   1 812        1    1 515
+    ziku.o                            11 868
+    -------------------------------------------------
+    Total:                   69 076   16 192    6 942
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tl.a: [4]
+    FltDiv.o                    252
+    FltMul.o                    216
+    I32ToFlt.o                   50
+    -------------------------------------------------
+    Total:                      518
+
+rt7M_tl.a: [5]
+    ABImemset.o                 102
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    lz77_init_single.o          120
+    strncpy_unaligned.o         108
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                      482
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         10        2
+    Linker created                        32    1 024
+-----------------------------------------------------
+    Grand Total:             70 114   16 226    7 966
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x0801456c           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0801458c           --   Gb  - Linker created -
+?main                   0x08014699          Code  Gb  cmain.o [5]
+ADCPrescTable           0x20001008     0x4  Data  Lc  stm32f10x_rcc.o [1]
+APBAHBPrescTable        0x20000ff8    0x10  Data  Lc  stm32f10x_rcc.o [1]
+AT24CXX_Init            0x0800ea55     0x8  Code  Gb  24CXX.o [1]
+AT24CXX_ReadOneByte     0x0800ea5d    0x5c  Code  Gb  24CXX.o [1]
+AT24CXX_WriteOneByte    0x0800eab9    0x54  Code  Gb  24CXX.o [1]
+Auto_WashPro            0x08005d19   0x372  Code  Gb  Menu.o [1]
+BusFault_Handler        0x0801489f     0x2  Code  Gb  stm32f10x_it.o [1]
+CSTACK$$Base            0x20001090           --   Gb  - Linker created -
+CSTACK$$Limit           0x20001490           --   Gb  - Linker created -
+ClearDisBuff            0x080000ed    0x18  Code  Gb  Menu.o [1]
+Code_I                  0x20001c00    0x88  Data  Gb  Menu.o [1]
+CommSend_All            0x20001e96     0x2  Data  Gb  struct_comm.o [1]
+CommSend_All_old        0x20001e98     0x2  Data  Gb  struct_comm.o [1]
+Counter_DisBuff         0x20001e92     0x2  Data  Gb  Menu.o [1]
+DATA1                   0x20001e3c     0x4  Data  Gb  Menu.o [1]
+DATA2                   0x20001e40     0x4  Data  Gb  Menu.o [1]
+DATA3                   0x20001e44     0x4  Data  Gb  Menu.o [1]
+DATA4                   0x20001e48     0x4  Data  Gb  Menu.o [1]
+DATA5                   0x20001e4c     0x4  Data  Gb  Menu.o [1]
+DATA6                   0x20001e50     0x4  Data  Gb  Menu.o [1]
+DATA7                   0x20001e54     0x4  Data  Gb  Menu.o [1]
+DATA8                   0x20001e58     0x4  Data  Gb  Menu.o [1]
+DATA9                   0x20001e5c     0x4  Data  Gb  Menu.o [1]
+DebugMon_Handler        0x080148a5     0x2  Code  Gb  stm32f10x_it.o [1]
+DisBuff                 0x20001d10    0x7c  Data  Gb  LCD_display.o [1]
+DispMod                 0x20001f07     0x1  Data  Gb  Menu.o [1]
+DispMod_Old             0x20001ef9     0x1  Data  Gb  Menu.o [1]
+GPIOInit                0x08013001   0x110  Code  Gb  SystemInit.o [1]
+GPIO_Init               0x0800f311    0xc0  Code  Gb  stm32f10x_gpio.o [1]
+HMICommuINV_OK          0x20001ebf     0x1  Data  Gb  main.o [1]
+HardFault_Handler       0x0801489b     0x2  Code  Gb  stm32f10x_it.o [1]
+IIC_Ack                 0x0800f013    0x40  Code  Gb  IIC.o [1]
+IIC_Init                0x0800eee1    0x32  Code  Gb  IIC.o [1]
+IIC_NAck                0x0800f053    0x40  Code  Gb  IIC.o [1]
+IIC_Read_Byte           0x0800f0ef    0x64  Code  Gb  IIC.o [1]
+IIC_Send_Byte           0x0800f093    0x5c  Code  Gb  IIC.o [1]
+IIC_Start               0x0800ef13    0x52  Code  Gb  IIC.o [1]
+IIC_Stop                0x0800ef65    0x58  Code  Gb  IIC.o [1]
+IIC_Wait_Ack            0x0800efbd    0x56  Code  Gb  IIC.o [1]
+INVBus_voltage          0x20001e8a     0x2  Data  Gb  DataHandle.o [1]
+INVCurrent_command      0x20001ea5     0x1  Data  Gb  DataHandle.o [1]
+INVCurrent_fault        0x20001ea7     0x1  Data  Gb  DataHandle.o [1]
+INVCurrent_state        0x20001ea6     0x1  Data  Gb  DataHandle.o [1]
+INVOutput_current       0x20001e8e     0x2  Data  Gb  DataHandle.o [1]
+INVOutput_voltage       0x20001e8c     0x2  Data  Gb  DataHandle.o [1]
+INVRun_frequency        0x20001e86     0x2  Data  Gb  DataHandle.o [1]
+INVSet_frequency        0x20001e88     0x2  Data  Gb  DataHandle.o [1]
+InData                  0x20000000    0x14  Data  Gb  key.o [1]
+Init_Procedure          0x0800ec23   0x128  Code  Gb  SysPr.o [1]
+Is_Leap_Year            0x08013c4d    0x42  Code  Gb  rtc.o [1]
+KeyAct                  0x20001eb0     0x1  Data  Gb  key.o [1]
+KeyBuzz                 0x20001eb2     0x1  Data  Gb  key.o [1]
+KeyCmd                  0x20001eb1     0x1  Data  Gb  key.o [1]
+KeyModify               0x20000014    0x14  Data  Gb  key.o [1]
+KeyScan                 0x080137f1   0x218  Code  Gb  key.o [1]
+KeyScan::KeyCount       0x20001d8c    0x44  Data  Lc  key.o [1]
+KeyScan::KeyVal_temp    0x20001eb6     0x1  Data  Lc  key.o [1]
+KeyScan::Num_KeyDown    0x20001eb5     0x1  Data  Lc  key.o [1]
+KeyScan::OutputNum      0x20001eb3     0x1  Data  Lc  key.o [1]
+KeyScan::PBOut          0x20001eb4     0x1  Data  Lc  key.o [1]
+KeyVal                  0x20001eaf     0x1  Data  Gb  key.o [1]
+LCDDisplay              0x08000297    0xc8  Code  Gb  Menu.o [1]
+Lcd_KEYPro              0x08000133   0x164  Code  Gb  Menu.o [1]
+MBS_HoldRegs            0x20001490   0x1f4  Data  Gb  usart.o [1]
+MemManage_Handler       0x0801489d     0x2  Code  Gb  stm32f10x_it.o [1]
+Menu                    0x20001f06     0x1  Data  Gb  Menu.o [1]
+NMI_Handler             0x08014899     0x2  Code  Gb  stm32f10x_it.o [1]
+NVIC_Configuration      0x08013111    0x40  Code  Gb  timer.o [1]
+NVIC_Init               0x0800f165    0x5e  Code  Gb  misc.o [1]
+P01_parameter           0x08014404    0x88  Data  Gb  SysPr.o [1]
+PP_parameter            0x20001c88    0x88  Data  Gb  SysPr.o [1]
+PendSV_Handler          0x080148a7     0x2  Code  Gb  stm32f10x_it.o [1]
+RCC_APB1PeriphClockCmd  0x0800f2d3    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x0800f2b3    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x0800f1f9    0xba  Code  Gb  stm32f10x_rcc.o [1]
+RTC_Get                 0x08013c8f    0xfc  Code  Gb  rtc.o [1]
+RTC_Get::daycnt         0x20001e94     0x2  Data  Lc  rtc.o [1]
+RTC_Get_Week            0x08013d8b    0x70  Code  Gb  rtc.o [1]
+RTC_IRQHandler          0x08013c11    0x3c  Code  Gb  rtc.o [1]
+RecoverFactoryPr        0x0800ebb5    0x6e  Code  Gb  SysPr.o [1]
+Region$$Table$$Base     0x0801456c           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0801458c           --   Gb  - Linker created -
+RunPrFunTable           0x20000fb8    0x40  Data  Gb  Menu.o [1]
+SVC_Handler             0x080148a3     0x2  Code  Gb  stm32f10x_it.o [1]
+SetSysClock             0x08012efd     0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo72         0x08012f05    0xe0  Code  Lc  system_stm32f10x.o [1]
+SysPrInit               0x0800edf1    0x4a  Code  Gb  SysPr.o [1]
+SysTick_CLKSourceConfig
+                        0x0800f1c3    0x20  Code  Gb  misc.o [1]
+SysTick_Handler         0x080148a9     0x2  Code  Gb  stm32f10x_it.o [1]
+SystemInit              0x08012ea9    0x54  Code  Gb  system_stm32f10x.o [1]
+SystemState             0x20001e14     0x4  Data  Gb  DataHandle.o [1]
+TIM3_IRQHandler         0x08013193   0x1ea  Code  Gb  timer.o [1]
+TIM3_IRQHandler::counter_2s
+                        0x20001e9e     0x2  Data  Lc  timer.o [1]
+TIM3_IRQHandler::counter_500ms
+                        0x20001ea0     0x2  Data  Lc  timer.o [1]
+TIM3_IRQHandler::counter_holding
+                        0x20001ea2     0x2  Data  Lc  timer.o [1]
+TIM3_IRQHandler::counter_rdwr
+                        0x20001e9c     0x2  Data  Lc  timer.o [1]
+TIM_ClearITPendingBit   0x080137bf     0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x08013763    0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_GetITStatus         0x08013797    0x28  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig            0x0801377f    0x18  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x080136d1    0x92  Code  Gb  stm32f10x_tim.o [1]
+Timerx_Init             0x08013151    0x42  Code  Gb  timer.o [1]
+USART1_IRQHandler       0x08012313    0xc4  Code  Gb  usart.o [1]
+USART_Cmd               0x08012a01    0x1c  Code  Gb  stm32f10x_usart.o [1]
+USART_GetFlagStatus     0x08012a7f    0x1a  Code  Gb  stm32f10x_usart.o [1]
+USART_GetITStatus       0x08012a99    0x64  Code  Gb  stm32f10x_usart.o [1]
+USART_ITConfig          0x08012a1d    0x52  Code  Gb  stm32f10x_usart.o [1]
+USART_Init              0x08012941    0xba  Code  Gb  stm32f10x_usart.o [1]
+USART_ReceiveData       0x08012a77     0x8  Code  Gb  stm32f10x_usart.o [1]
+USART_SendData          0x08012a6f     0x8  Code  Gb  stm32f10x_usart.o [1]
+UsageFault_Handler      0x080148a1     0x2  Code  Gb  stm32f10x_it.o [1]
+_1s_timer               0x20001ecb     0x1  Data  Gb  Menu.o [1]
+__aeabi_fdiv            0x08013b15          Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x08013a3d          Code  Gb  FltMul.o [4]
+__aeabi_i2f             0x08013a09          Code  Gb  I32ToFlt.o [4]
+__aeabi_memset          0x0800ee79          Code  Gb  ABImemset.o [5]
+__aeabi_ui2f            0x08013a1d          Code  Gb  I32ToFlt.o [4]
+__cmain                 0x08014699          Code  Gb  cmain.o [5]
+__exit                  0x080146c9    0x14  Code  Gb  exit.o [6]
+__iar_Memset            0x0800ee79          Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x0800ee81          Code  Gb  ABImemset.o [5]
+__iar_data_init3        0x08014545    0x28  Code  Gb  data_init.o [5]
+__iar_lz77_init_single3
+                        0x0801448d    0x78  Code  Gb  lz77_init_single.o [5]
+__iar_program_start     0x080149f9          Code  Gb  cstartup_M.o [5]
+__iar_ui2f              0x08013a21          Code  Gb  I32ToFlt.o [4]
+__iar_unaligned_strncpy
+                        0x0800e9e9          Code  Gb  strncpy_unaligned.o [5]
+__iar_zero_init3        0x08014505    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x080146b3     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f10x_md.o [1]
+_bit_set                0x20001efb     0x1  Data  Gb  Menu.o [1]
+_buzzer_run             0x20001eec     0x1  Data  Gb  Menu.o [1]
+_call_main              0x080146a5          Code  Gb  cmain.o [5]
+_enable_commu_Inventer  0x20001ec0     0x1  Data  Gb  main.o [1]
+_enable_display         0x20001f00     0x1  Data  Gb  Menu.o [1]
+_exit                   0x080146bd          Code  Gb  cexit.o [5]
+_glitter_cold_led       0x20001ec6     0x1  Data  Gb  main.o [1]
+_glitter_drain_led      0x20001ec3     0x1  Data  Gb  main.o [1]
+_glitter_heat_led       0x20001ec2     0x1  Data  Gb  main.o [1]
+_glitter_spin_led       0x20001ec4     0x1  Data  Gb  main.o [1]
+_glitter_warm_led       0x20001ec1     0x1  Data  Gb  main.o [1]
+_glitter_wash_led       0x20001ec5     0x1  Data  Gb  main.o [1]
+_if_save_data           0x20001ebc     0x1  Data  Gb  main.o [1]
+_key_long               0x20001eba     0x1  Data  Gb  main.o [1]
+_key_pro_ok_2           0x20001eb9     0x1  Data  Gb  main.o [1]
+_main                   0x080146af          Code  Gb  cmain.o [5]
+_manual_mode            0x20001ec9     0x1  Data  Gb  Menu.o [1]
+_new_page               0x20001efa     0x1  Data  Gb  Menu.o [1]
+_read_data              0x20001efc     0x1  Data  Gb  Menu.o [1]
+_read_function          0x20001efd     0x1  Data  Gb  Menu.o [1]
+_set_mode_symbol        0x20001ebb     0x1  Data  Gb  main.o [1]
+_tell_alarm             0x20001eed     0x1  Data  Gb  Menu.o [1]
+_tell_stop              0x20001eee     0x1  Data  Gb  Menu.o [1]
+_wash_direction         0x20001ed0     0x1  Data  Gb  Menu.o [1]
+aa                      0x20001df4     0x8  Data  Gb  LCD_display.o [1]
+acce_time               0x20001e28     0x4  Data  Gb  main.o [1]
+ad_temp1                0x20001e9a     0x2  Data  Gb  timer.o [1]
+all_time_h              0x20001ef6     0x1  Data  Gb  Menu.o [1]
+all_time_m              0x20001ef7     0x1  Data  Gb  Menu.o [1]
+all_time_s              0x20001ef8     0x1  Data  Gb  Menu.o [1]
+anticlockwise_run_time  0x20001ef3     0x1  Data  Gb  Menu.o [1]
+anticlockwise_stop_time
+                        0x20001ef4     0x1  Data  Gb  Menu.o [1]
+auchCRCHi               0x08013e1c   0x100  Data  Gb  crc.o [1]
+auchCRCLo               0x08013f1c   0x100  Data  Gb  crc.o [1]
+auto_mode_m             0x20001ed2     0x1  Data  Gb  Menu.o [1]
+auto_mode_s             0x20001ed1     0x1  Data  Gb  Menu.o [1]
+auto_run_mode           0x20001ebd     0x1  Data  Gb  main.o [1]
+back_light_timer        0x20001ec7     0x1  Data  Gb  main.o [1]
+backup_one              0x20001f14     0x1  Data  Gb  struct_comm.o [1]
+buzzer_num              0x20001eeb     0x1  Data  Gb  Menu.o [1]
+buzzer_timer            0x20001eea     0x1  Data  Gb  Menu.o [1]
+calefaction             0x20001f10     0x1  Data  Gb  struct_comm.o [1]
+check_sta01             0x0800e539    0x52  Code  Gb  LCD_display.o [1]
+commu_pro               0x08012c8b   0x18e  Code  Gb  main.o [1]
+commun_interval         0x20001edb     0x1  Data  Gb  Menu.o [1]
+cool_water              0x20001f0e     0x1  Data  Gb  struct_comm.o [1]
+counter_rd              0x20001e64     0x4  Data  Gb  timer.o [1]
+counter_rd_err          0x20001e6c     0x4  Data  Gb  timer.o [1]
+counter_wr              0x20001e78     0x4  Data  Gb  timer.o [1]
+counter_wr06_err        0x20001e70     0x4  Data  Gb  timer.o [1]
+counter_wr10            0x20001e68     0x4  Data  Gb  timer.o [1]
+counter_wr10_err        0x20001e74     0x4  Data  Gb  timer.o [1]
+counter_wr_handshake    0x20001e7c     0x4  Data  Gb  timer.o [1]
+counter_wr_ok           0x20001e80     0x4  Data  Gb  timer.o [1]
+course_auto_manual_mode
+                        0x08006fe5   0xcea  Code  Gb  Menu.o [1]
+crc16                   0x08012afd    0x3c  Code  Gb  crc.o [1]
+deasil_run_time         0x20001ef1     0x1  Data  Gb  Menu.o [1]
+deasil_stop_time        0x20001ef2     0x1  Data  Gb  Menu.o [1]
+dece_time               0x20001e2c     0x4  Data  Gb  main.o [1]
+dehydration_num         0x20001ed4     0x1  Data  Gb  Menu.o [1]
+dehydration_provide_timer
+                        0x20001ee1     0x1  Data  Gb  Menu.o [1]
+dehydration_stop_pro    0x08005481    0xdc  Code  Gb  Menu.o [1]
+delay                   0x0800eba9     0xa  Code  Gb  delay.o [1]
+delay_init              0x0800eb0d    0x28  Code  Gb  delay.o [1]
+delay_ms                0x0800eb35    0x30  Code  Gb  delay.o [1]
+delay_us                0x0800eb65    0x30  Code  Gb  delay.o [1]
+dis_main_menu           0x20000310   0x1e4  Data  Gb  Menu.o [1]
+dis_sub_menu_eight      0x200009bc    0x5c  Data  Gb  Menu.o [1]
+dis_sub_menu_eleven     0x20000b68    0x98  Data  Gb  Menu.o [1]
+dis_sub_menu_fifteen    0x20000de8    0x5c  Data  Gb  Menu.o [1]
+dis_sub_menu_five       0x200007f0    0x40  Data  Gb  Menu.o [1]
+dis_sub_menu_four       0x2000071c    0xd4  Data  Gb  Menu.o [1]
+dis_sub_menu_fourteen   0x20000d14    0xd4  Data  Gb  Menu.o [1]
+dis_sub_menu_nine       0x20000a18    0xd4  Data  Gb  Menu.o [1]
+dis_sub_menu_one        0x200004f4    0xb8  Data  Gb  Menu.o [1]
+dis_sub_menu_seven      0x20000904    0xb8  Data  Gb  Menu.o [1]
+dis_sub_menu_six        0x20000830    0xd4  Data  Gb  Menu.o [1]
+dis_sub_menu_sixteen    0x20000e44    0x7c  Data  Gb  Menu.o [1]
+dis_sub_menu_ten        0x20000aec    0x7c  Data  Gb  Menu.o [1]
+dis_sub_menu_thirteen   0x20000c7c    0x98  Data  Gb  Menu.o [1]
+dis_sub_menu_three      0x20000664    0xb8  Data  Gb  Menu.o [1]
+dis_sub_menu_twelve     0x20000c00    0x7c  Data  Gb  Menu.o [1]
+dis_sub_menu_two        0x200005ac    0xb8  Data  Gb  Menu.o [1]
+dismenu                 0x20001e0c     0x8  Data  Gb  Menu.o [1]
+dismmMenu               0x20000294    0x7c  Data  Gb  Menu.o [1]
+dismodeMenu             0x20000218    0x7c  Data  Gb  Menu.o [1]
+dispMainMenu            0x20000120    0x7c  Data  Gb  Menu.o [1]
+dispSetMenu             0x2000019c    0x7c  Data  Gb  Menu.o [1]
+disphex_asc_be          0x08005207    0x2e  Code  Gb  Menu.o [1]
+disphex_asc_le          0x080051b9    0x4e  Code  Gb  Menu.o [1]
+disresetmenu            0x20000028    0x7c  Data  Gb  Menu.o [1]
+door_lock               0x20001f13     0x1  Data  Gb  struct_comm.o [1]
+drain                   0x20001f11     0x1  Data  Gb  struct_comm.o [1]
+eepromFault             0x2000100c    0x7c  Data  Gb  SysPr.o [1]
+exit                    0x080146b7     0x4  Code  Gb  exit.o [3]
+fac_ms                  0x20001e90     0x2  Data  Lc  delay.o [1]
+fac_us                  0x20001eae     0x1  Data  Lc  delay.o [1]
+fact_liquid_height      0x20001e84     0x2  Data  Gb  DataHandle.o [1]
+fact_temp               0x20001ea4     0x1  Data  Gb  DataHandle.o [1]
+fault                   0x20001dd0     0xc  Data  Gb  Menu.o [1]
+fault_count_back        0x20001f08     0x1  Data  Gb  Menu.o [1]
+flag_1s_wr              0x20001eb7     0x1  Data  Gb  main.o [1]
+flag_2s_WrSysPr         0x20001f17     0x1  Data  Gb  timer.o [1]
+flag_500ms              0x20001f18     0x1  Data  Gb  timer.o [1]
+flag_500ms_rd           0x20001f16     0x1  Data  Gb  timer.o [1]
+flag_InitFinish         0x20001f1a     0x1  Data  Gb  timer.o [1]
+flag_err_handshake      0x20001ec8     0x1  Data  Gb  main.o [1]
+flag_error_usart        0x20001f1e     0x1  Data  Gb  usart.o [1]
+flag_fault_display      0x20001e30     0x4  Data  Gb  main.o [1]
+flag_holding            0x20001f15     0x1  Data  Gb  timer.o [1]
+flag_key_free           0x20001f19     0x1  Data  Gb  timer.o [1]
+flag_reading_0x03       0x20001f23     0x1  Data  Gb  usart.o [1]
+flag_rw_elc_err         0x20001f1f     0x1  Data  Gb  usart.o [1]
+flag_usart2_read_error  0x20001f20     0x1  Data  Gb  usart.o [1]
+flag_wr_more            0x20001eb8     0x1  Data  Gb  main.o [1]
+flag_writing_0x06       0x20001f21     0x1  Data  Gb  usart.o [1]
+flag_writing_0x10       0x20001f22     0x1  Data  Gb  usart.o [1]
+get_clothes_function    0x080056b5    0xd2  Code  Gb  Menu.o [1]
+get_clothes_function_key
+                        0x080055e9    0xb0  Code  Gb  Menu.o [1]
+get_clothes_provide_timer
+                        0x20001ef0     0x1  Data  Gb  Menu.o [1]
+get_clothes_stop        0x0800556d    0x6a  Code  Gb  Menu.o [1]
+handshake_pro           0x08007cf1    0x24  Code  Gb  Menu.o [1]
+handshakemenu           0x200000a4    0x7c  Data  Gb  Menu.o [1]
+hanzi                   0x0800f3d0  0x2e5c  Data  Gb  ziku.o [1]
+high_dehydration_max_run_timer
+                        0x20001e38     0x4  Data  Gb  Menu.o [1]
+high_dehydration_stop_skid_time
+                        0x20001ee6     0x1  Data  Gb  Menu.o [1]
+high_dehydration_stop_wait_timer
+                        0x20001ee4     0x1  Data  Gb  Menu.o [1]
+high_spin               0x08005851    0x64  Code  Gb  Menu.o [1]
+high_spin_run           0x08005aa5   0x1a2  Code  Gb  Menu.o [1]
+hot_water               0x20001f0f     0x1  Data  Gb  struct_comm.o [1]
+ini_data                0x08012b39    0x58  Code  Gb  main.o [1]
+init_LCD                0x0800e649    0x38  Code  Gb  LCD_display.o [1]
+init_sap1024            0x0800e681    0x56  Code  Gb  LCD_display.o [1]
+init_userPr             0x0800ed4b    0xa6  Code  Gb  SysPr.o [1]
+input_door_switch       0x20001ea8     0x1  Data  Gb  DataHandle.o [1]
+input_exigency_stop     0x20001eaa     0x1  Data  Gb  DataHandle.o [1]
+input_high_liquid       0x20001ead     0x1  Data  Gb  DataHandle.o [1]
+input_low_liquid        0x20001eab     0x1  Data  Gb  DataHandle.o [1]
+input_middle_liquid     0x20001eac     0x1  Data  Gb  DataHandle.o [1]
+input_shake             0x20001ea9     0x1  Data  Gb  DataHandle.o [1]
+key_instancy_stop_menu_handler
+                        0x0800e3a1    0x26  Code  Gb  Menu.o [1]
+key_lcd_menu_eight_handler
+                        0x0800b7b9   0x314  Code  Gb  Menu.o [1]
+key_lcd_menu_eleven_handler
+                        0x0800c295   0x2ee  Code  Gb  Menu.o [1]
+key_lcd_menu_fifteen_handler
+                        0x0800d155   0x25a  Code  Gb  Menu.o [1]
+key_lcd_menu_five_handler
+                        0x0800b1ad    0xea  Code  Gb  Menu.o [1]
+key_lcd_menu_four_handler
+                        0x0800b0b5    0xec  Code  Gb  Menu.o [1]
+key_lcd_menu_fourteen_handler
+                        0x0800cb61   0x5e6  Code  Gb  Menu.o [1]
+key_lcd_menu_nine_handler
+                        0x0800bad9   0x448  Code  Gb  Menu.o [1]
+key_lcd_menu_one_handler
+                        0x0800a561   0x4e2  Code  Gb  Menu.o [1]
+key_lcd_menu_seven_handler
+                        0x0800b56d   0x23e  Code  Gb  Menu.o [1]
+key_lcd_menu_six_handler
+                        0x0800b2a5   0x2b8  Code  Gb  Menu.o [1]
+key_lcd_menu_sixteen_handler
+                        0x0800d3af    0x4c  Code  Gb  Menu.o [1]
+key_lcd_menu_ten_handler
+                        0x0800bf35   0x358  Code  Gb  Menu.o [1]
+key_lcd_menu_thirteen_handler
+                        0x0800c7e5   0x360  Code  Gb  Menu.o [1]
+key_lcd_menu_three_handler
+                        0x0800ad45   0x36c  Code  Gb  Menu.o [1]
+key_lcd_menu_twelve_handler
+                        0x0800c58d   0x24e  Code  Gb  Menu.o [1]
+key_lcd_menu_two_handler
+                        0x0800aa61   0x2d8  Code  Gb  Menu.o [1]
+key_main_set_menu_handler
+                        0x0800a3d1   0x13e  Code  Gb  Menu.o [1]
+key_mainmenu_handler    0x08007dd9  0x219c  Code  Gb  Menu.o [1]
+key_menu_fault_dis_handler
+                        0x0800e3c7    0xe8  Code  Gb  Menu.o [1]
+key_menu_fault_page_handler
+                        0x0800d401    0xf2  Code  Gb  Menu.o [1]
+key_menu_first_page_handler
+                        0x08009f75   0x164  Code  Gb  Menu.o [1]
+key_menu_save_data_handler
+                        0x0800e259    0xd6  Code  Gb  Menu.o [1]
+key_menu_second_page_handler
+                        0x0800a0e5   0x2c4  Code  Gb  Menu.o [1]
+key_menu_set_program_handler
+                        0x0800d531   0xcf8  Code  Gb  Menu.o [1]
+key_shake_stop_menu_handler
+                        0x0800e375    0x26  Code  Gb  Menu.o [1]
+key_wash_complete_menu_handler
+                        0x0800e32f    0x40  Code  Gb  Menu.o [1]
+kp_menucur              0x08005235    0x48  Code  Gb  Menu.o [1]
+lcd_ByteSearch          0x0800e70b    0x2c  Code  Gb  LCD_display.o [1]
+lcd_WordSearch          0x0800e6d7    0x34  Code  Gb  LCD_display.o [1]
+lcd_chosen_sub_step     0x20001ef5     0x1  Data  Gb  Menu.o [1]
+lcd_cpage               0x20001f02     0x1  Data  Gb  Menu.o [1]
+lcd_cpage_old           0x20001f03     0x1  Data  Gb  Menu.o [1]
+lcd_grHome              0x20001e18     0x4  Data  Gb  LCD_display.o [1]
+lcd_instancy_stop_menu  0x0800414f     0x2  Code  Gb  Menu.o [1]
+lcd_lastline            0x08005285    0xb8  Code  Gb  Menu.o [1]
+lcd_mainmenu            0x08000381   0xdb0  Code  Gb  Menu.o [1]
+lcd_maxcur              0x20001efe     0x1  Data  Gb  Menu.o [1]
+lcd_menu_eight          0x08002845   0x204  Code  Gb  Menu.o [1]
+lcd_menu_eleven         0x08003151   0x306  Code  Gb  Menu.o [1]
+lcd_menu_fifteen        0x08003e1d   0x1f4  Code  Gb  Menu.o [1]
+lcd_menu_five           0x08002189   0x13c  Code  Gb  Menu.o [1]
+lcd_menu_four           0x08001fd9   0x192  Code  Gb  Menu.o [1]
+lcd_menu_fourteen       0x08003a1d   0x3fa  Code  Gb  Menu.o [1]
+lcd_menu_nine           0x08002a71   0x40e  Code  Gb  Menu.o [1]
+lcd_menu_one            0x08001545   0x45c  Code  Gb  Menu.o [1]
+lcd_menu_seven          0x08002685   0x1ae  Code  Gb  Menu.o [1]
+lcd_menu_six            0x080022d5   0x39a  Code  Gb  Menu.o [1]
+lcd_menu_sixteen        0x08004025    0xd0  Code  Gb  Menu.o [1]
+lcd_menu_ten            0x08002e8d   0x2ba  Code  Gb  Menu.o [1]
+lcd_menu_thirteen       0x080036e9   0x328  Code  Gb  Menu.o [1]
+lcd_menu_three          0x08001cc5   0x2f6  Code  Gb  Menu.o [1]
+lcd_menu_twelve         0x0800346d   0x26a  Code  Gb  Menu.o [1]
+lcd_menu_two            0x080019c9   0x2b8  Code  Gb  Menu.o [1]
+lcd_shake_stop_menu     0x0800414d     0x2  Code  Gb  Menu.o [1]
+lcd_wash_complete_menu  0x080040f5    0x46  Code  Gb  Menu.o [1]
+lcd_wrstring            0x0800e8e5    0x5e  Code  Gb  LCD_display.o [1]
+lcd_wrstring_num        0x0800e943    0x72  Code  Gb  LCD_display.o [1]
+lcd_wru16               0x0800e737   0x114  Code  Gb  LCD_display.o [1]
+lcd_wru8                0x0800e84b    0x9a  Code  Gb  LCD_display.o [1]
+localAddr               0x20001088     0x1  Data  Gb  usart.o [1]
+main                    0x08012b91    0xfa  Code  Gb  main.o [1]
+main_cycle_1s_timer     0x20001e1c     0x4  Data  Gb  main.o [1]
+main_program_pro        0x0800613d   0xdf0  Code  Gb  Menu.o [1]
+main_set_menu           0x08001401    0xf0  Code  Gb  Menu.o [1]
+menu_fault_dis          0x08004dc9   0x3d6  Code  Gb  Menu.o [1]
+menu_fault_page         0x08004151   0x3b4  Code  Gb  Menu.o [1]
+menu_first_page         0x08001185    0x54  Code  Gb  Menu.o [1]
+menu_handshake_dis      0x08004cc1    0x46  Code  Gb  Menu.o [1]
+menu_save_data          0x08004c6f    0x46  Code  Gb  Menu.o [1]
+menu_second_page        0x0800121d   0x1be  Code  Gb  Menu.o [1]
+menu_set_program        0x08004525   0x74a  Code  Gb  Menu.o [1]
+middle_dehydration_max_run_timer
+                        0x20001e34     0x4  Data  Gb  Menu.o [1]
+middle_dehydration_settle_timer
+                        0x20001ee2     0x1  Data  Gb  Menu.o [1]
+middle_dehydration_stop_skid_time
+                        0x20001ee5     0x1  Data  Gb  Menu.o [1]
+middle_dehydration_stop_wait_timer
+                        0x20001ee3     0x1  Data  Gb  Menu.o [1]
+middle_spin             0x080057f9    0x54  Code  Gb  Menu.o [1]
+middle_spin_run         0x080058f1   0x176  Code  Gb  Menu.o [1]
+modbus_check            0x20001684   0x1f4  Data  Gb  usart.o [1]
+modbus_dataUnpack_host  0x0801259b   0x33e  Code  Gb  usart.o [1]
+mode_data               0x20001a70    0xc8  Data  Gb  Menu.o [1]
+mode_data_buffer        0x20001b38    0xc8  Data  Gb  Menu.o [1]
+mon_table               0x080149ec     0xc  Data  Gb  rtc.o [1]
+new_fault               0x20001eda     0x1  Data  Gb  Menu.o [1]
+one_way_stay_time       0x20001ed6     0x1  Data  Gb  Menu.o [1]
+passdisp                0x20001ddc     0xc  Data  Gb  Menu.o [1]
+passportdata            0x20001dfc     0x8  Data  Gb  Menu.o [1]
+passportdata_buffer     0x20001e04     0x8  Data  Gb  Menu.o [1]
+program_five            0x0801433c    0xc8  Data  Gb  SysPr.o [1]
+program_four            0x08014274    0xc8  Data  Gb  SysPr.o [1]
+program_one             0x0801401c    0xc8  Data  Gb  SysPr.o [1]
+program_step_num        0x20001ed7     0x1  Data  Gb  Menu.o [1]
+program_three           0x080141ac    0xc8  Data  Gb  SysPr.o [1]
+program_two             0x080140e4    0xc8  Data  Gb  SysPr.o [1]
+putCommSend             0x08013561   0x170  Code  Gb  struct_comm.o [1]
+readINV_handshake       0x20001f24     0x1  Data  Gb  usart.o [1]
+receBuf                 0x20001974    0xfc  Data  Gb  usart.o [1]
+receCount               0x20001f1c     0x1  Data  Gb  usart.o [1]
+run_frequency           0x20001e24     0x4  Data  Gb  main.o [1]
+run_state               0x20001eff     0x1  Data  Gb  Menu.o [1]
+save_data_menu          0x20000ec0    0x7c  Data  Gb  Menu.o [1]
+sendBuf                 0x20001878    0xfc  Data  Gb  usart.o [1]
+sendCount               0x20001f1b     0x1  Data  Gb  usart.o [1]
+sendPosi                0x20001f1d     0x1  Data  Gb  usart.o [1]
+sendtobuff              0x08000105    0x2e  Code  Gb  Menu.o [1]
+set_liquid_height       0x20001eca     0x1  Data  Gb  Menu.o [1]
+set_num                 0x20001ecc     0x1  Data  Gb  Menu.o [1]
+set_num_timer           0x20001ecd     0x1  Data  Gb  Menu.o [1]
+set_temp                0x20001f01     0x1  Data  Gb  Menu.o [1]
+shake_num               0x20001ee9     0x1  Data  Gb  Menu.o [1]
+single_wash_complete_delay_time
+                        0x20001edf     0x1  Data  Gb  Menu.o [1]
+single_wash_complete_skid
+                        0x20001ee0     0x1  Data  Gb  Menu.o [1]
+single_wash_drain_time  0x20001ede     0x1  Data  Gb  Menu.o [1]
+single_wash_have_water_time
+                        0x20001edd     0x1  Data  Gb  Menu.o [1]
+single_way_wash_stop_pro
+                        0x08005c47    0x6a  Code  Gb  Menu.o [1]
+skid                    0x20001f12     0x1  Data  Gb  struct_comm.o [1]
+soap_liquid_1           0x20001f0d     0x1  Data  Gb  struct_comm.o [1]
+soap_liquid_2           0x20001f0c     0x1  Data  Gb  struct_comm.o [1]
+soap_liquid_3           0x20001f0b     0x1  Data  Gb  struct_comm.o [1]
+soap_liquid_num         0x20001ed3     0x1  Data  Gb  Menu.o [1]
+soap_liquid_time        0x20001ed8     0x1  Data  Gb  Menu.o [1]
+spin_num                0x20001ed5     0x1  Data  Gb  Menu.o [1]
+spin_time_interval      0x20001e20     0x4  Data  Gb  main.o [1]
+spin_time_m             0x20001f05     0x1  Data  Gb  Menu.o [1]
+spin_time_s             0x20001f04     0x1  Data  Gb  Menu.o [1]
+step_num                0x20001eef     0x1  Data  Gb  Menu.o [1]
+stop_spin               0x08005791    0x64  Code  Gb  Menu.o [1]
+structCommSend          0x20001e60     0x4  Data  Gb  struct_comm.o [1]
+sub_DataHandle          0x080133e5    0x98  Code  Gb  DataHandle.o [1]
+sub_InputStates         0x0801347d    0x90  Code  Gb  DataHandle.o [1]
+table_week              0x080149e0     0xc  Data  Gb  rtc.o [1]
+tell_stop_num           0x20001ed9     0x1  Data  Gb  Menu.o [1]
+timer                   0x20001de8     0xc  Data  Gb  rtc.o [1]
+trans_num               0x20001ee7     0x1  Data  Gb  Menu.o [1]
+usart3_flag_fault_clear
+                        0x20001ebe     0x1  Data  Gb  main.o [1]
+usart_WriteMultipleRegister
+                        0x0801247b   0x120  Code  Gb  usart.o [1]
+usart_WriteRegister     0x080123d7    0xa4  Code  Gb  usart.o [1]
+usart_config            0x0801222d    0xe6  Code  Gb  usart.o [1]
+wait                    0x0800e52d     0xc  Code  Gb  LCD_display.o [1]
+wait_trans_time         0x20001ee8     0x1  Data  Gb  Menu.o [1]
+wash_1                  0x20001f09     0x1  Data  Gb  struct_comm.o [1]
+wash_2                  0x20001f0a     0x1  Data  Gb  struct_comm.o [1]
+wash_complete_menu      0x20000f3c    0x7c  Data  Gb  Menu.o [1]
+wash_pro                0x08005349   0x11e  Code  Gb  Menu.o [1]
+wash_provide_timer      0x20001edc     0x1  Data  Gb  Menu.o [1]
+wash_run_time           0x20001ece     0x1  Data  Gb  Menu.o [1]
+wash_stop_time          0x20001ecf     0x1  Data  Gb  Menu.o [1]
+write_com               0x0800e5db    0x50  Code  Gb  LCD_display.o [1]
+write_data              0x0800e58b    0x50  Code  Gb  LCD_display.o [1]
+write_reg               0x0800e62b    0x1e  Code  Gb  LCD_display.o [1]
+
+
+[1] = \\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  70 114 bytes of readonly  code memory
+  16 226 bytes of readonly  data memory
+   7 966 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

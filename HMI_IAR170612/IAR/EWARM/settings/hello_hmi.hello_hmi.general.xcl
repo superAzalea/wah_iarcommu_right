@@ -1,0 +1,15 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\bin\armproc.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\bin\armjlink2.dll" 
+
+"\\psf\Home\Desktop\170612_ws\wash_170613\HMI_IAR170612\IAR\EWARM\hello_hmi\Exe\hello_hmi.out" 
+
+--plugin "C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\config\debugger\ST\STM32F1xx_XL.dmac" 
+
+--flash_loader "C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\config\flashloader\ST\FlashSTM32F10xxB.board" 
+
+
+
+
